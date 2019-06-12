@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.stackroute</groupId>
+<<<<<<< HEAD
+    <artifactId>microservices</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>microservices</name>
+    <description>MicroServices using spring boot</description>
+=======
+    <artifactId>micro-services</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>microServices</name>
+    <description>Micro Services for Spring Boot</description>
+>>>>>>> 9d23a298676a8d3ca78510da89c62c2db999c643
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+<<<<<<< HEAD
+    <modules>
+        <module>muzix-service</module>
+        <module>spring-config-server</module>
+        <module>spring-eureka-server</module>
+        <module>spring-gateway-api</module>
+        <module>user-service</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+=======
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+>>>>>>> 9d23a298676a8d3ca78510da89c62c2db999c643
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+<<<<<<< HEAD
+=======
+    <modules>
+        <module>muzix-service</module>
+        <module>spring-config-server</module>
+        <module>spring-eureka-server</module>
+        <module>spring-gateway-api</module>
+        <module>user-service</module>
+    </modules>
+
+>>>>>>> 9d23a298676a8d3ca78510da89c62c2db999c643
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+<<<<<<< HEAD
+</project>
+=======
+</project>
+>>>>>>> 9d23a298676a8d3ca78510da89c62c2db999c643
